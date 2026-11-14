@@ -10,19 +10,17 @@ Inspired by the visual and communicative aesthetics of international masterplann
 
 1. **Alam El Roum – Data-Driven Adaptive Urban Planning**
    * *Graduation Project*: Machine-learning-driven environmental fragility classification (K-Means) and adaptive coastal zoning along the Mediterranean coast in Matrouh Governorate / Ras El Hekma sector.
-2. **Sohag – Strategic Planning**
-   * Regional urban development study formulating growth scenarios to preserve fertile agricultural lands along the Nile Valley while redirecting urban expansion into desert plateaus.
+2. **Sohag – Strategic Regional Planning**
+   * Regional development study formulating growth scenarios to preserve fertile agricultural lands along the Nile Valley while redirecting urban expansion into desert plateaus.
 3. **Detailed Urban Planning**
    * Comprehensive district masterplan, parcel subdivision geometry, street right-of-way design, statutory planning regulations, and 3D axonometrics.
 4. **Landscape Architecture – Nursery & Library**
    * Water-sensitive desert public realm park centered around an expansive lagoon, sunken reading gardens, open-air amphitheater, botanical greenhouse nursery, and hand-rendered watercolor plans.
-5. **Jeddah – Wadi Flood Management**
-   * Environmental GIS analysis utilizing high-resolution Digital Elevation Models (DEM) to map flash flood hazard zones and propose resilient nature-based drainage corridors.
-6. **West Qena**
+5. **West Qena**
    * Fourth-Generation smart desert new city master plan utilizing green wind-channeling corridors and decentralized neighborhood service hubs.
-7. **Vocational School**
+6. **Vocational School**
    * Campus architectural design separating noisy industrial workshops from academic lecture halls around a passive-cooling central courtyard. Full technical drawings and presentation boards.
-8. **Villa Workshop**
+7. **Villa Workshop**
    * Modern luxury residential villa modeled parametrically within an Autodesk Revit BIM workflow, featuring cantilevered geometry and outdoor pool living.
 
 ---
@@ -32,7 +30,7 @@ Inspired by the visual and communicative aesthetics of international masterplann
 * **HTML5**: Semantic, accessible markup.
 * **Vanilla JavaScript (ES Modules)**: Component logic, dynamic project card rendering, interactive multi-category filtering, modal viewer, and full-resolution lightbox.
 * **Tailwind CSS**: Custom architectural design system (deep navy palette `#071628`, warm architectural gold `#c9a84c`, clean typography).
-* **Vite**: Ultra-fast build tool with multi-page HTML bundling (`index.html` + 8 individual project detail pages).
+* **Vite**: Ultra-fast build tool with multi-page HTML bundling (`index.html` + 7 individual project detail pages).
 * **GitHub Pages Ready**: Configured with relative base path (`base: './'`) for deployment on any repository subpath.
 
 ---
@@ -54,7 +52,6 @@ amr-portfolio/
 │           ├── sohag/
 │           ├── detailed/
 │           ├── landscape/
-│           ├── jeddah/
 │           ├── west-qena/
 │           ├── school/
 │           └── villa/
@@ -63,7 +60,6 @@ amr-portfolio/
 │   ├── sohag.html
 │   ├── detailed-urban-planning.html
 │   ├── landscape-architecture.html
-│   ├── jeddah-flood-management.html
 │   ├── west-qena.html
 │   ├── vocational-school.html
 │   └── villa-workshop.html

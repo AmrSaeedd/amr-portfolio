@@ -87,42 +87,42 @@ By analyzing multi-spectral imagery and running K-Means clustering algorithms to
   {
     id: 'sohag',
     title: 'Sohag',
-    subtitle: 'Strategic Regional Urban Planning & Alternatives Analysis',
-    category: 'urban',
-    categories: ['urban', 'gis'],
+    subtitle: 'Strategic Regional Planning & Alternatives Analysis',
+    category: 'regional',
+    categories: ['regional', 'gis'],
     year: '2023',
     location: 'Sohag Governorate, Upper Egypt',
-    role: 'Strategic Urban Planner & GIS Specialist',
+    role: 'Regional Planner & GIS Specialist',
     tools: ['ArcGIS', 'AutoCAD', 'Photoshop', 'PowerPoint'],
     coverImage: './images/projects/sohag/cover.jpg',
     pageUrl: './projects/sohag.html',
-    summary: 'A comprehensive strategic planning study for Sohag Governorate, evaluating regional socio-economic drivers, demographic pressures, agricultural preservation boundaries, and spatial expansion corridors.',
+    summary: 'A comprehensive strategic regional planning study for Sohag Governorate, evaluating regional socio-economic drivers, demographic pressures, agricultural preservation boundaries, and spatial expansion corridors.',
     keyHighlights: [
       'Regional Diagnostic Analysis: Comprehensive spatial assessment of demographic expansion, infrastructure deficits, and prime agricultural soil protection.',
-      'Planning Alternatives: Developed and compared three distinct urban growth scenarios (Linear Nile-oriented, Polycentric nodal, and Desert-expansion models).',
-      'Multi-Criteria Decision Evaluation: Ranked planning alternatives through weighted spatial suitability analysis and stakeholder criteria.',
-      'Strategic Sector Master Plan: Formulated actionable zoning policies, inter-city mobility networks, and specialized economic/industrial clusters.',
+      'Regional Growth Alternatives: Developed and compared three distinct regional development scenarios (Linear Nile-oriented, Polycentric nodal, and Desert-expansion models).',
+      'Multi-Criteria Decision Evaluation: Ranked regional alternatives through weighted spatial suitability analysis and stakeholder criteria.',
+      'Strategic Regional Master Plan: Formulated actionable regional zoning policies, inter-city mobility networks, and specialized economic/industrial clusters.',
     ],
-    overview: `Sohag Governorate in Upper Egypt confronts critical spatial dilemmas: population growth placing heavy pressure on narrow, irreplaceable fertile agricultural lands bordering the River Nile. 
+    overview: `Sohag Governorate in Upper Egypt confronts critical regional planning dilemmas: population growth placing heavy pressure on narrow, irreplaceable fertile agricultural lands bordering the River Nile. 
 
-This project formulated a forward-looking strategic master plan that redirects urban growth eastward and westward into desert plateau fringes while revitalizing core city service centers. The study features thorough multi-layered GIS spatial analyses, comparative planning alternatives, and land-use suitability frameworks that protect agricultural wealth and unlock sustainable socio-economic development.`,
+This project formulated a forward-looking strategic regional plan that redirects growth eastward and westward into desert plateau fringes while revitalizing core city service centers. The study features thorough multi-layered GIS spatial analyses, comparative regional alternatives, and land-use suitability frameworks that protect agricultural wealth and unlock sustainable regional economic development.`,
     stats: [
-      { label: 'Scale', value: 'Governorate / Sector' },
-      { label: 'Focus', value: 'Strategic Planning' },
-      { label: 'Scenarios', value: '3 Growth Alternatives' },
+      { label: 'Scale', value: 'Regional / Governorate' },
+      { label: 'Focus', value: 'Regional Planning' },
+      { label: 'Scenarios', value: '3 Regional Alternatives' },
       { label: 'Approach', value: 'GIS Suitability Model' },
     ],
     images: [
       {
         src: './images/projects/sohag/plan.jpg',
-        title: 'Strategic Sector Master Plan',
-        caption: 'Approved strategic development framework for the designated Sohag urban sector.',
-        type: 'Master Plan'
+        title: 'Strategic Regional Master Plan',
+        caption: 'Approved strategic development framework for the designated Sohag regional sector.',
+        type: 'Regional Plan'
       },
       {
         src: './images/projects/sohag/alternatives.jpg',
-        title: 'Strategic Planning Alternatives',
-        caption: 'Comparative assessment and spatial configuration of alternative urban development scenarios.',
+        title: 'Strategic Regional Alternatives',
+        caption: 'Comparative assessment and spatial configuration of alternative regional development scenarios.',
         type: 'Analysis'
       },
       {
@@ -133,8 +133,8 @@ This project formulated a forward-looking strategic master plan that redirects u
       },
       {
         src: './images/projects/sohag/about.jpg',
-        title: 'Sector Diagnosis & Context',
-        caption: 'Urban sector definition, boundary constraints, and regional connectivity matrix.',
+        title: 'Regional Sector Diagnosis & Context',
+        caption: 'Regional planning sector definition, boundary constraints, and connectivity matrix.',
         type: 'Context'
       },
       {
@@ -258,61 +258,6 @@ Centered around a water lagoon with pedestrian footbridges and an islet, the par
         title: 'Nursery & Park Phase 2 Design',
         caption: 'Detailed design board showing tree species arrangement, parking bays, and nursery greenhouse connections.',
         type: 'Detail'
-      }
-    ]
-  },
-  {
-    id: 'jeddah-flood-management',
-    title: 'Jeddah – Wadi Flood Management',
-    subtitle: 'GIS Hydrological Modeling & Climate-Resilient Urban Runoff Mitigation',
-    category: 'gis',
-    categories: ['gis', 'urban'],
-    year: '2023',
-    location: 'Jeddah Watershed Basin, Kingdom of Saudi Arabia',
-    role: 'GIS Specialist & Environmental Planner',
-    tools: ['ArcGIS Pro', 'Hydrological Modeling Tools', 'Digital Elevation Models (DEM)', 'Photoshop'],
-    coverImage: './images/projects/jeddah/cover.jpg',
-    pageUrl: './projects/jeddah-flood-management.html',
-    summary: 'A critical environmental GIS investigation analyzing flash flood risks in Jeddah wadi basins, establishing hazard vulnerability zoning and nature-based stormwater retention solutions.',
-    keyHighlights: [
-      'Watershed & Basin Delineation: Processed high-resolution Digital Elevation Models (DEM) to model flow direction, accumulation, and wadi discharge streams.',
-      'Multi-Tier Flood Risk Mapping: Classified flood hazard zones based on slope, soil permeability, catchment size, and urban density.',
-      'Resilient Mitigation Strategy: Proposed retention reservoirs, vegetative infiltration basins, and designated wadi flood corridors that double as green recreation belts.',
-      'Comprehensive Technical Posters: Produced two exhaustive presentation boards explaining hydrological mechanics, risk zones, and physical planning interventions.',
-    ],
-    overview: `Jeddah's coastal topography, constrained between steep eastern mountain escarpments and the Red Sea, subjects urban settlements to sudden, destructive flash flood events during high-intensity rainfall.
-
-This study uses GIS spatial modeling and hydrological tools to track surface runoff pathways and calculate basin discharge volumes. The output establishes a data-backed flood hazard mitigation plan that integrates natural wadi corridors into the urban landscape — safeguarding lives and infrastructure while establishing resilient green corridors.`,
-    stats: [
-      { label: 'Domain', value: 'Environmental GIS' },
-      { label: 'Hazard', value: 'Flash Flood Vulnerability' },
-      { label: 'Tools', value: 'DEM & Hydro Tools' },
-      { label: 'Strategy', value: 'Nature-Based Drainage' },
-    ],
-    images: [
-      {
-        src: './images/projects/jeddah/poster1.jpg',
-        title: 'Flood Hazard Analysis Board (Poster 1)',
-        caption: 'Extensive technical poster detailing basin catchment morphology, flow accumulation streams, and hazard classification.',
-        type: 'Poster'
-      },
-      {
-        src: './images/projects/jeddah/poster2.jpg',
-        title: 'Drainage Mitigation & Urban Framework (Poster 2)',
-        caption: 'Mitigation strategy poster proposing retention ponds, channelized wadi parkways, and urban resilience zoning.',
-        type: 'Poster'
-      },
-      {
-        src: './images/projects/jeddah/plan.jpg',
-        title: 'Spatial Drainage Network Plan',
-        caption: 'Geospatial plan delineating flood discharge routes, protective green buffers, and infrastructure defense lines.',
-        type: 'Plan'
-      },
-      {
-        src: './images/projects/jeddah/render.png',
-        title: 'Wadi Corridor Resilient Design',
-        caption: 'Visual simulation of converted wadi dry-wash channel into a multi-functional green corridor.',
-        type: 'Visualization'
       }
     ]
   },
