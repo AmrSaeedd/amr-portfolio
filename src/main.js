@@ -468,12 +468,20 @@ function initContactForm() {
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    if (successMsg) {
-      successMsg.classList.remove('hidden');
-      form.reset();
-      setTimeout(() => {
-        successMsg.classList.add('hidden');
-      }, 5000);
-    }
+
+    const fields = new FormData(form);
+    const subject = fields.get('subject').trim();
+    const phoneVal = fields.get('phone') ? fields.get('phone').trim() : '';
+    const bodyLines = [
+      `Name: ${fields.get('name').trim()}`,
+      `Email: ${fields.get('email').trim()}`,
+    ];
+    if (phoneVal) bodyLines.push(`Phone: ${phoneVal}`);
+    bodyLines.push('', fields.get('message').trim());
+    const body = bodyLines.join('\n');
+    const mailto = `mailto:amrsaeed.urban@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailto;
+    if (successMsg) successMsg.classList.remove('hidden');
   });
 }

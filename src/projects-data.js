@@ -9,8 +9,8 @@ export const projectsData = [
     location: 'Matrouh Governorate, Ras El Hekma Sector, Egypt',
     role: 'Lead Urban Planner & GIS Analyst (Graduation Project)',
     tools: ['ArcGIS Pro', 'QGIS', 'Python / ML (K-Means)', 'AutoCAD', 'Photoshop'],
-    coverImage: './images/projects/alam-el-roum/cover.png',
-    pageUrl: './projects/alam-el-roum.html',
+    coverImage: '/images/projects/alam-el-roum/Web Cover.png',
+    pageUrl: '/projects/alam-el-roum.html',
     summary: 'A pioneering graduation project proposing an adaptive, data-driven master plan for the Alam El Roum coastal sector in Matrouh Governorate. The study integrates machine learning algorithms for environmental vulnerability classification with resilient spatial planning.',
     keyHighlights: [
       'Machine Learning Fragility Mapping: Utilized K-Means clustering algorithm on multi-temporal satellite imagery to classify environmental fragility zones.',
@@ -29,57 +29,51 @@ By analyzing multi-spectral imagery and running K-Means clustering algorithms to
     ],
     images: [
       {
-        src: './images/projects/alam-el-roum/masterplan-full.jpg',
+        src: '/images/projects/alam-el-roum/Web Cover.png',
+        title: 'Project Title & Web Cover',
+        caption: 'Strategic adaptive coastal planning title board and comprehensive sector overview.',
+        type: 'Cover'
+      },
+      {
+        src: '/images/projects/alam-el-roum/masterplan-full.jpg',
         title: 'Comprehensive Master Plan',
         caption: 'Final comprehensive master plan showing zoning, road hierarchy, land allocation, and green corridors.',
         type: 'Master Plan'
       },
       {
-        src: './images/projects/alam-el-roum/cover.png',
-        title: 'Project Title Board',
-        caption: 'Alam El Roum strategic planning overview and visual composition.',
-        type: 'Board'
-      },
-      {
-        src: './images/projects/alam-el-roum/sector.jpg',
+        src: '/images/projects/alam-el-roum/sector.jpg',
         title: 'Ras El Hekma / Alam El Roum Regional Sector',
         caption: 'Regional spatial context and environmental transect across the Mediterranean coastal strip.',
         type: 'Context'
       },
       {
-        src: './images/projects/alam-el-roum/location.jpg',
+        src: '/images/projects/alam-el-roum/location.jpg',
         title: 'Site Location & Geographic Context',
         caption: 'Geographic positioning, regional road linkages, and coastal boundary demarcation.',
         type: 'Analysis'
       },
       {
-        src: './images/projects/alam-el-roum/methodology.png',
+        src: '/images/projects/alam-el-roum/methodology.png',
         title: 'Methodology & Analytical Framework',
         caption: 'Workflow diagram detailing multi-criteria spatial modeling, machine learning fragility index, and master planning.',
         type: 'Methodology'
       },
       {
-        src: './images/projects/alam-el-roum/plan.jpg',
+        src: '/images/projects/alam-el-roum/plan.jpg',
         title: 'Urban Layout & Parcelization',
         caption: 'Detailed urban structure, street network hierarchy, and functional land allocation.',
         type: 'Plan'
       },
       {
-        src: './images/projects/alam-el-roum/board1.jpg',
+        src: '/images/projects/alam-el-roum/board1.jpg',
         title: 'Graduation Project Board 1',
         caption: 'Complete presentation board featuring regional analysis, environmental modeling, and site diagnosis.',
         type: 'Board'
       },
       {
-        src: './images/projects/alam-el-roum/board2.jpg',
+        src: '/images/projects/alam-el-roum/board2.jpg',
         title: 'Graduation Project Board 2',
         caption: 'Master plan development board detailing zoning parameters, infrastructure networks, and development phases.',
-        type: 'Board'
-      },
-      {
-        src: './images/projects/alam-el-roum/board3.jpg',
-        title: 'Graduation Project Board 3',
-        caption: 'Detailed master planning board with urban typologies, public realm design, and 3D architectural representations.',
         type: 'Board'
       }
     ]
@@ -94,8 +88,8 @@ By analyzing multi-spectral imagery and running K-Means clustering algorithms to
     location: 'Sohag Governorate, Upper Egypt',
     role: 'Regional Planner & GIS Specialist',
     tools: ['ArcGIS', 'AutoCAD', 'Photoshop', 'PowerPoint'],
-    coverImage: './images/projects/sohag/cover.jpg',
-    pageUrl: './projects/sohag.html',
+    coverImage: '/images/projects/sohag/web cover.jpg',
+    pageUrl: '/projects/sohag.html',
     summary: 'A comprehensive strategic regional planning study for Sohag Governorate, evaluating regional socio-economic drivers, demographic pressures, agricultural preservation boundaries, and spatial expansion corridors.',
     keyHighlights: [
       'Regional Diagnostic Analysis: Comprehensive spatial assessment of demographic expansion, infrastructure deficits, and prime agricultural soil protection.',
@@ -114,31 +108,37 @@ This project formulated a forward-looking strategic regional plan that redirects
     ],
     images: [
       {
-        src: './images/projects/sohag/plan.jpg',
+        src: '/images/projects/sohag/web cover.jpg',
         title: 'Strategic Regional Master Plan',
         caption: 'Approved strategic development framework for the designated Sohag regional sector.',
         type: 'Regional Plan'
       },
       {
-        src: './images/projects/sohag/alternatives.jpg',
+        src: '/images/projects/sohag/plan.jpg',
+        title: 'Sector Master Plan Detailed',
+        caption: 'Strategic sector masterplan showing development corridors, services, and preservation boundaries.',
+        type: 'Plan'
+      },
+      {
+        src: '/images/projects/sohag/alternatives.jpg',
         title: 'Strategic Regional Alternatives',
         caption: 'Comparative assessment and spatial configuration of alternative regional development scenarios.',
         type: 'Analysis'
       },
       {
-        src: './images/projects/sohag/general-analysis.jpg',
+        src: '/images/projects/sohag/general-analysis.jpg',
         title: 'General Regional Analysis',
         caption: 'Comprehensive analysis of demographic trends, road networks, topographical features, and land capability.',
         type: 'Analysis'
       },
       {
-        src: './images/projects/sohag/about.jpg',
+        src: '/images/projects/sohag/about.jpg',
         title: 'Regional Sector Diagnosis & Context',
         caption: 'Regional planning sector definition, boundary constraints, and connectivity matrix.',
         type: 'Context'
       },
       {
-        src: './images/projects/sohag/analysis.jpg',
+        src: '/images/projects/sohag/analysis.jpg',
         title: 'Land Use & Socio-Economic Dynamics',
         caption: 'Detailed thematic mapping of current land occupations and physical infrastructure conditions.',
         type: 'Analysis'
@@ -155,8 +155,8 @@ This project formulated a forward-looking strategic regional plan that redirects
     location: 'Urban District Sector',
     role: 'Urban Designer & CAD Specialist',
     tools: ['AutoCAD', 'ArcGIS Pro', 'Photoshop', 'Sketchup'],
-    coverImage: './images/projects/detailed/cover.jpg',
-    pageUrl: './projects/detailed-urban-planning.html',
+    coverImage: '/images/projects/detailed/web cover.jpg',
+    pageUrl: '/projects/detailed-urban-planning.html',
     summary: 'A full-scale detailed urban design and neighborhood master plan, encompassing block layouts, parcel subdivisions, building regulations, multimodal street design, and coordinated infrastructure networks.',
     keyHighlights: [
       'Neighborhood Parceling & Layout: Created human-scaled residential blocks, commercial ribbons, and civic community nodes.',
@@ -175,25 +175,31 @@ Every block and parcel is meticulously calibrated to statutory standards, ensuri
     ],
     images: [
       {
-        src: './images/projects/detailed/masterplan.jpg',
-        title: 'Final Master Plan',
-        caption: 'Detailed neighborhood layout showing land allocations, block geometry, and circulation.',
+        src: '/images/projects/detailed/web cover.jpg',
+        title: 'Final Detailed District Layout',
+        caption: 'High-definition colored district masterplan detailing parcels, building blocks, road hierarchy, and landscaped public spaces.',
         type: 'Master Plan'
       },
       {
-        src: './images/projects/detailed/final-layout.jpg',
+        src: '/images/projects/detailed/project cover.jpg',
+        title: 'Project Presentation Cover',
+        caption: 'Detailed urban planning presentation board and project cover layout.',
+        type: 'Cover'
+      },
+      {
+        src: '/images/projects/detailed/final-layout.jpg',
         title: 'Detailed Urban Layout with Landscape',
         caption: 'High-definition urban plan highlighting public squares, landscape buffers, and tree canopies.',
         type: 'Layout'
       },
       {
-        src: './images/projects/detailed/3d.jpg',
+        src: '/images/projects/detailed/3d.jpg',
         title: '3D District Massing & Aerial Perspective',
         caption: 'Axonometric 3D rendering showing spatial relationships, urban fabric density, and street canyon scale.',
         type: '3D View'
       },
       {
-        src: './images/projects/detailed/layout.jpg',
+        src: '/images/projects/detailed/layout.jpg',
         title: 'Parcel Subdivision & Street Network',
         caption: 'Technical parcelation schema detailing individual plot boundaries, setbacks, and road centerlines.',
         type: 'Plan'
@@ -210,8 +216,8 @@ Every block and parcel is meticulously calibrated to statutory standards, ensuri
     location: 'Public Park & Cultural Realm',
     role: 'Lead Landscape Architect',
     tools: ['AutoCAD', 'Photoshop', 'Hand / Watercolor Rendering', 'SketchUp'],
-    coverImage: './images/projects/landscape/cover.jpg',
-    pageUrl: './projects/landscape-architecture.html',
+    coverImage: '/images/projects/landscape/landscape project cover.jpg',
+    pageUrl: '/projects/landscape-architecture.html',
     summary: 'A public park and cultural landscape featuring a central recreational lagoon, sunken reading gardens, children nursery, open-air amphitheater, and shaded botanical walking loops.',
     keyHighlights: [
       'Microclimate & Water Feature: Integrated an expansive naturalized lagoon and island serving as both a climate cooler and an aesthetic anchor.',
@@ -230,31 +236,37 @@ Centered around a water lagoon with pedestrian footbridges and an islet, the par
     ],
     images: [
       {
-        src: './images/projects/landscape/masterplan.png',
+        src: '/images/projects/landscape/landscape project cover.jpg',
+        title: 'Landscape Project Cover',
+        caption: 'Master landscape presentation cover and site layout overview.',
+        type: 'Cover'
+      },
+      {
+        src: '/images/projects/landscape/masterplan.png',
         title: 'Watercolor Park Masterplan',
         caption: 'Artistic watercolor master plan detailing planting layers, lagoon geometry, pathways, and civic nodes.',
         type: 'Master Plan'
       },
       {
-        src: './images/projects/landscape/sections.png',
+        src: '/images/projects/landscape/sections.png',
         title: 'Landscape Sections & Lagoon Park Profile',
         caption: 'Watercolor elevation sections illustrating topographic variations, sunken gardens, and mature tree canopies.',
         type: 'Sections'
       },
       {
-        src: './images/projects/landscape/cover.jpg',
+        src: '/images/projects/landscape/cover.jpg',
         title: 'Park Rendered Site Plan',
         caption: 'Fully rendered landscape master plan with road connections, sports courts, and hardscape paving.',
         type: 'Site Plan'
       },
       {
-        src: './images/projects/landscape/plan.png',
+        src: '/images/projects/landscape/plan.png',
         title: 'Detailed Master Layout',
         caption: 'Comprehensive CAD/Photoshop rendered layout illustrating circulation loops and programmed zones.',
         type: 'Plan'
       },
       {
-        src: './images/projects/landscape/project2.jpg',
+        src: '/images/projects/landscape/project2.jpg',
         title: 'Nursery & Park Phase 2 Design',
         caption: 'Detailed design board showing tree species arrangement, parking bays, and nursery greenhouse connections.',
         type: 'Detail'
@@ -271,8 +283,8 @@ Centered around a water lagoon with pedestrian footbridges and an islet, the par
     location: 'West Qena New Urban Community, Upper Egypt',
     role: 'Urban Planner & Masterplan Designer',
     tools: ['AutoCAD', 'ArcGIS', 'Photoshop'],
-    coverImage: './images/projects/west-qena/cover.jpg',
-    pageUrl: './projects/west-qena.html',
+    coverImage: '/images/projects/west-qena/web cover.jpg',
+    pageUrl: '/projects/west-qena.html',
     summary: 'Master planning of West Qena New City, conceived as a smart, sustainable desert urban expansion accommodating demographic growth with climate-responsive green corridors.',
     keyHighlights: [
       'Sustainable Urban Growth Framework: Designed a master plan accommodating progressive growth stages along Upper Egypt’s desert fringes.',
@@ -291,34 +303,34 @@ This project delivers a forward-thinking urban master plan characterized by stro
     ],
     images: [
       {
-        src: './images/projects/west-qena/new-city.png',
+        src: '/images/projects/west-qena/web cover.jpg',
+        title: 'West Qena Web Cover Masterplan',
+        caption: 'Full-scale colored urban master plan featuring sustainable neighborhood cells and green wind corridors.',
+        type: 'Master Plan'
+      },
+      {
+        src: '/images/projects/west-qena/Master Plan.jpg',
+        title: 'Strategic Urban Master Plan',
+        caption: 'Detailed zoning and land allocation master plan for the new city expansion.',
+        type: 'Master Plan'
+      },
+      {
+        src: '/images/projects/west-qena/new-city.png',
         title: 'West Qena New City Masterplan',
         caption: 'Macro master plan showcasing neighborhood clusters, commercial central spine, and regional transit arteries.',
         type: 'Master Plan'
       },
       {
-        src: './images/projects/west-qena/masterplan.jpg',
-        title: 'Sustainable Master Plan',
-        caption: 'Zoning and land allocation plan highlighting ecological buffers and pedestrian-friendly block typologies.',
-        type: 'Master Plan'
+        src: '/images/projects/west-qena/context.jpg',
+        title: 'Regional Context & Definition',
+        caption: 'Geographic positioning, regional road linkages, and city boundaries.',
+        type: 'Context'
       },
       {
-        src: './images/projects/west-qena/urban-plan.png',
-        title: 'Urban Development Plan',
-        caption: 'Strategic development map with detailed density zoning, educational facilities, and public service hubs.',
+        src: '/images/projects/west-qena/plan-cover.jpg',
+        title: 'Masterplan Presentation Plan',
+        caption: 'Urban layout and land allocation presentation drawing.',
         type: 'Plan'
-      },
-      {
-        src: './images/projects/west-qena/alternatives.jpg',
-        title: 'Planning Alternatives & Site Suitability',
-        caption: 'Multi-scenario planning alternatives board evaluating topography, access, and phase-wise feasibility.',
-        type: 'Analysis'
-      },
-      {
-        src: './images/projects/west-qena/board1.jpg',
-        title: 'Presentation Board – West Qena',
-        caption: 'Full presentation board compiling site analysis, diagnostic studies, development vision, and master plan.',
-        type: 'Board'
       }
     ]
   },
@@ -332,8 +344,8 @@ This project delivers a forward-thinking urban master plan characterized by stro
     location: 'Educational District',
     role: 'Architectural Designer',
     tools: ['AutoCAD', 'Revit', 'Photoshop', '3ds Max / SketchUp'],
-    coverImage: './images/projects/school/cover.jpg',
-    pageUrl: './projects/vocational-school.html',
+    coverImage: '/images/projects/school/web cover.jpg',
+    pageUrl: '/projects/vocational-school.html',
     summary: 'A contemporary vocational school campus featuring dedicated technical workshops, academic classrooms, administration, central courtyard, and student sports fields.',
     keyHighlights: [
       'Functional Zoning: Rational layout cleanly isolating loud industrial workshops from quiet academic instructional wings.',
@@ -352,31 +364,43 @@ The spatial layout organizes academic classrooms, science laboratories, administ
     ],
     images: [
       {
-        src: './images/projects/school/architectural-masterplan.png',
+        src: '/images/projects/school/web cover.jpg',
+        title: 'Campus Master Layout & Web Cover',
+        caption: 'Vocational school site layout and architectural masterplan.',
+        type: 'Layout'
+      },
+      {
+        src: '/images/projects/school/render.png',
+        title: 'Architectural Perspective Rendering',
+        caption: 'Exterior 3D rendering showing entrance canopy, sun-shading louvers, and courtyard connectivity.',
+        type: '3D Render'
+      },
+      {
+        src: '/images/projects/school/architectural-masterplan.png',
         title: 'Architectural Campus Masterplan',
         caption: 'Master site plan illustrating building footprints, entry drop-offs, sports courts, and landscape plazas.',
         type: 'Master Plan'
       },
       {
-        src: './images/projects/school/floor-plans.jpg',
+        src: '/images/projects/school/floor-plans.jpg',
         title: 'Ground & Upper Floor Plans Visualized',
         caption: 'Detailed architectural layouts showing workshop halls, administrative suites, lecture rooms, and circulation.',
         type: 'Floor Plans'
       },
       {
-        src: './images/projects/school/elevations.jpg',
+        src: '/images/projects/school/elevations.jpg',
         title: 'Architectural Elevations & Building Sections',
         caption: 'Technical longitudinal sections and facade elevations detailing floor heights, louvers, and structural grids.',
         type: 'Sections'
       },
       {
-        src: './images/projects/school/3d.jpg',
+        src: '/images/projects/school/3d.jpg',
         title: '3D Perspectives & Visualizations',
         caption: 'Exterior 3D renderings showcasing the entrance canopy, materiality, sun-shading fins, and courtyard interaction.',
         type: '3D View'
       },
       {
-        src: './images/projects/school/presentation-board.jpg',
+        src: '/images/projects/school/presentation-board.jpg',
         title: 'Full Presentation Board (Shasieh)',
         caption: 'Complete competition/academic presentation board gathering site concept, plans, elevations, sections, and 3D views.',
         type: 'Board'
@@ -393,8 +417,8 @@ The spatial layout organizes academic classrooms, science laboratories, administ
     location: 'Residential Suburb',
     role: 'BIM Modeler & Architectural Designer',
     tools: ['Autodesk Revit', 'Photoshop', 'Enscape / V-Ray'],
-    coverImage: './images/projects/villa/cover.jpg',
-    pageUrl: './projects/villa-workshop.html',
+    coverImage: '/images/projects/villa/web cover.png',
+    pageUrl: '/projects/villa-workshop.html',
     summary: 'A modern luxury residential villa design developed within a rigorous Autodesk Revit BIM workflow, featuring dynamic geometric volumes, indoor-outdoor garden integration, and detailed 3D perspectives.',
     keyHighlights: [
       'BIM Information Modeling: Created a fully coordinated Autodesk Revit architectural model with parametric family components.',
@@ -413,25 +437,31 @@ Using Autodesk Revit as the core authoring platform, every architectural element
     ],
     images: [
       {
-        src: './images/projects/villa/3d-view.png',
+        src: '/images/projects/villa/web cover.png',
+        title: 'Villa Exterior Perspective & Web Cover',
+        caption: 'Modern luxury residential facade composition, cantilevered balcony, and private garden portal.',
+        type: '3D Render'
+      },
+      {
+        src: '/images/projects/villa/3d-view.png',
         title: 'Main Perspective View',
         caption: 'High-resolution exterior architectural rendering demonstrating volumetric massing, glazing, and landscape integration.',
         type: '3D Render'
       },
       {
-        src: './images/projects/villa/view1.jpg',
+        src: '/images/projects/villa/view1.jpg',
         title: 'Front Elevation Perspective',
         caption: 'Perspective view highlighting modern facade composition, cantilevered balcony, and welcoming entrance portal.',
         type: '3D View'
       },
       {
-        src: './images/projects/villa/view2.jpg',
+        src: '/images/projects/villa/view2.jpg',
         title: 'Garden & Poolside Perspective',
         caption: 'Rear terrace perspective showcasing seamless connection between living spaces, swimming pool, and private courtyard.',
         type: '3D View'
       },
       {
-        src: './images/projects/villa/rvt.jpg',
+        src: '/images/projects/villa/rvt.jpg',
         title: 'Revit BIM Model Views',
         caption: 'Revit project interface showing axonometric BIM model, spatial coordinates, and floor level elevations.',
         type: 'BIM / Revit'

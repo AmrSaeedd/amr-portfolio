@@ -1,298 +1,488 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alam El Roum – Adaptive Urban Planning | Amr Saeed</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../src/style.css" />
-</head>
-<body class="bg-white text-slate-800 font-sans antialiased">
-
-  <!-- Header / Navigation -->
-  <header class="sticky top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-100">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-      <a href="../index.html" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 bg-navy-800 flex items-center justify-center rounded-sm">
-          <span class="text-white font-display font-bold text-lg">A</span>
-        </div>
-        <div>
-          <div class="font-display font-bold text-navy-900 text-lg leading-tight">Amr Saeed</div>
-          <div class="text-3xs text-slate-500 font-medium tracking-widest uppercase">Urban Planner · GIS</div>
-        </div>
-      </a>
-
-      <div class="flex items-center gap-6">
-        <a href="../index.html#projects" class="text-xs font-semibold uppercase tracking-wider text-slate-600 hover:text-navy-900 transition-colors flex items-center gap-2">
-          ← Back to All Projects
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alam El Roum – Adaptive Urban Planning | Amr Saeed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="bg-white text-slate-800 font-sans antialiased">
+    <!-- Header / Navigation -->
+    <header
+      class="sticky top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-100"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between"
+      >
+        <a href="../index.html" class="flex items-center gap-3 group">
+          <div
+            class="w-10 h-10 bg-navy-800 flex items-center justify-center rounded-sm"
+          >
+            <span class="text-white font-display font-bold text-lg">A</span>
+          </div>
+          <div>
+            <div
+              class="font-display font-bold text-navy-900 text-lg leading-tight"
+            >
+              Amr Saeed
+            </div>
+            <div
+              class="text-3xs text-slate-500 font-medium tracking-widest uppercase"
+            >
+              Urban Planner · GIS
+            </div>
+          </div>
         </a>
-      </div>
-    </div>
-  </header>
 
-  <!-- Project Hero Banner -->
-  <section class="relative bg-navy-950 text-white py-20 lg:py-28 overflow-hidden">
-    <div class="absolute inset-0 opacity-15">
-      <img src="../images/projects/alam-el-roum/cover.png" alt="Alam El Roum Background" class="w-full h-full object-cover object-center" />
-    </div>
-    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
-      <div class="max-w-3xl">
-        <div class="inline-flex items-center gap-3 mb-4">
-          <span class="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/30 text-3xs font-bold uppercase tracking-widest rounded-sm">
-            Graduation Project · Urban Planning & GIS
-          </span>
-          <span class="text-slate-400 text-xs font-mono">2024</span>
-        </div>
-        <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Alam El Roum
-        </h1>
-        <p class="text-lg text-slate-200 leading-relaxed mb-8">
-          Data-Driven Adaptive Urban Planning & Coastal Resilience in Matrouh Governorate, Ras El Hekma Sector.
-        </p>
-
-        <!-- Project Metadata Table -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 p-5 bg-white/5 backdrop-blur-md rounded-sm border border-white/10 text-xs">
-          <div>
-            <div class="text-slate-400 uppercase tracking-widest text-3xs mb-1">Location</div>
-            <div class="text-white font-medium">Matrouh Governorate, Egypt</div>
-          </div>
-          <div>
-            <div class="text-slate-400 uppercase tracking-widest text-3xs mb-1">Role</div>
-            <div class="text-white font-medium">Lead Urban Planner & GIS Analyst</div>
-          </div>
-          <div>
-            <div class="text-slate-400 uppercase tracking-widest text-3xs mb-1">Core Tech</div>
-            <div class="text-white font-medium">ArcGIS Pro, ML (K-Means), QGIS</div>
-          </div>
-          <div>
-            <div class="text-slate-400 uppercase tracking-widest text-3xs mb-1">Focus</div>
-            <div class="text-white font-medium">Coastal Resilience & Adaptive Zoning</div>
-          </div>
+        <div class="flex items-center gap-6">
+          <a
+            href="../index.html#projects"
+            class="text-xs font-semibold uppercase tracking-wider text-slate-600 hover:text-navy-900 transition-colors flex items-center gap-2"
+          >
+            ← Back to All Projects
+          </a>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Main Content & Narrative -->
-  <main class="py-16 lg:py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
-      
-      <!-- Overview & Methodology -->
-      <div class="grid lg:grid-cols-12 gap-12 mb-20">
-        <div class="lg:col-span-7">
-          <span class="section-eyebrow">Project Context & Objectives</span>
-          <h2 class="font-display text-2xl sm:text-3xl font-bold text-navy-900 mb-6">
-            Balancing Coastal Tourism with Ecological Fragility
-          </h2>
-          <div class="text-slate-600 leading-relaxed space-y-4 text-base">
-            <p>
-              The Mediterranean coast of Matrouh and the Ras El Hekma / Alam El Roum sector represents one of the Mediterranean basin's most critical economic frontiers. However, rapid real estate development risks irreversible ecological degradation, alteration of natural drainage basins, and coastal erosion.
-            </p>
-            <p>
-              This graduation project formulates a comprehensive adaptive planning methodology. By training unsupervised <strong>K-Means clustering algorithms</strong> on multi-temporal satellite imagery, we computed environmental fragility indices based on vegetation changes (NDVI), surface moisture (NDWI), slope stability, and flash flood paths.
-            </p>
-            <p>
-              The resulting master plan designates development zones that harmonize with natural topographical corridors, providing resilient infrastructure, sustainable tourism hubs, and preserved ecological sanctuaries.
-            </p>
+    <!-- Project Hero Banner -->
+    <section
+      class="relative bg-navy-950 text-white py-20 lg:py-28 overflow-hidden"
+    >
+      <div class="absolute inset-0 opacity-15">
+        <img
+          src="../images/projects/alam-el-roum/Web Cover.png"
+          alt="Alam El Roum Background"
+          class="w-full h-full object-cover object-center"
+        />
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-3 mb-4">
+            <span
+              class="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/30 text-3xs font-bold uppercase tracking-widest rounded-sm"
+            >
+              Graduation Project · Urban Planning & GIS
+            </span>
+            <span class="text-slate-400 text-xs font-mono">2024</span>
+          </div>
+          <h1
+            class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
+          >
+            Alam El Roum
+          </h1>
+          <p class="text-lg text-slate-200 leading-relaxed mb-8">
+            Data-Driven Adaptive Urban Planning & Coastal Resilience in Matrouh
+            Governorate, Ras El Hekma Sector.
+          </p>
+
+          <!-- Project Metadata Table -->
+          <div
+            class="grid grid-cols-2 sm:grid-cols-4 gap-4 p-5 bg-white/5 backdrop-blur-md rounded-sm border border-white/10 text-xs"
+          >
+            <div>
+              <div
+                class="text-slate-400 uppercase tracking-widest text-3xs mb-1"
+              >
+                Location
+              </div>
+              <div class="text-white font-medium">
+                Matrouh Governorate, Egypt
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-slate-400 uppercase tracking-widest text-3xs mb-1"
+              >
+                Role
+              </div>
+              <div class="text-white font-medium">
+                Lead Urban Planner & GIS Analyst
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-slate-400 uppercase tracking-widest text-3xs mb-1"
+              >
+                Core Tech
+              </div>
+              <div class="text-white font-medium">
+                ArcGIS Pro, ML (K-Means), QGIS
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-slate-400 uppercase tracking-widest text-3xs mb-1"
+              >
+                Focus
+              </div>
+              <div class="text-white font-medium">
+                Coastal Resilience & Adaptive Zoning
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content & Narrative -->
+    <main class="py-16 lg:py-24">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <!-- Overview & Methodology -->
+        <div class="grid lg:grid-cols-12 gap-12 mb-20">
+          <div class="lg:col-span-7">
+            <span class="section-eyebrow">Project Context & Objectives</span>
+            <h2
+              class="font-display text-2xl sm:text-3xl font-bold text-navy-900 mb-6"
+            >
+              Balancing Coastal Tourism with Ecological Fragility
+            </h2>
+            <div class="text-slate-600 leading-relaxed space-y-4 text-base">
+              <p>
+                The Mediterranean coast of Matrouh and the Ras El Hekma / Alam
+                El Roum sector represents one of the Mediterranean basin's most
+                critical economic frontiers. However, rapid real estate
+                development risks irreversible ecological degradation,
+                alteration of natural drainage basins, and coastal erosion.
+              </p>
+              <p>
+                This graduation project formulates a comprehensive adaptive
+                planning methodology. By training unsupervised
+                <strong>K-Means clustering algorithms</strong> on multi-temporal
+                satellite imagery, we computed environmental fragility indices
+                based on vegetation changes (NDVI), surface moisture (NDWI),
+                slope stability, and flash flood paths.
+              </p>
+              <p>
+                The resulting master plan designates development zones that
+                harmonize with natural topographical corridors, providing
+                resilient infrastructure, sustainable tourism hubs, and
+                preserved ecological sanctuaries.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="lg:col-span-5 bg-slate-50 p-8 rounded-sm border border-slate-200/80"
+          >
+            <h3
+              class="font-bold text-navy-900 uppercase tracking-wider text-xs mb-4"
+            >
+              Key Methodological Pillars
+            </h3>
+            <ul class="space-y-4 text-sm text-slate-700">
+              <li class="flex items-start gap-3">
+                <span
+                  class="w-6 h-6 rounded-sm bg-navy-800 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold"
+                  >1</span
+                >
+                <div>
+                  <strong class="text-navy-900 block font-semibold"
+                    >Predictive Environmental Analysis</strong
+                  >
+                  Temporal tracking of NDVI and NDWI dynamics across multiple
+                  seasons to locate vulnerable biological corridors.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span
+                  class="w-6 h-6 rounded-sm bg-navy-800 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold"
+                  >2</span
+                >
+                <div>
+                  <strong class="text-navy-900 block font-semibold"
+                    >K-Means Fragility Classification</strong
+                  >
+                  Machine learning classification grouping coastal parcels into
+                  distinct vulnerability categories.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span
+                  class="w-6 h-6 rounded-sm bg-navy-800 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold"
+                  >3</span
+                >
+                <div>
+                  <strong class="text-navy-900 block font-semibold"
+                    >Adaptive Land Allocation</strong
+                  >
+                  Multi-criteria zoning ensuring low-impact densities in fragile
+                  zones and transit-oriented development in stable corridors.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span
+                  class="w-6 h-6 rounded-sm bg-navy-800 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold"
+                  >4</span
+                >
+                <div>
+                  <strong class="text-navy-900 block font-semibold"
+                    >Circulation & Drainage Network</strong
+                  >
+                  Hierarchy of roads, flood-safe evacuation routes, and
+                  dedicated surface storm runoff channels.
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
 
-        <div class="lg:col-span-5 bg-slate-50 p-8 rounded-sm border border-slate-200/80">
-          <h3 class="font-bold text-navy-900 uppercase tracking-wider text-xs mb-4">Key Methodological Pillars</h3>
-          <ul class="space-y-4 text-sm text-slate-700">
-            <li class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-sm bg-navy-800 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold">1</span>
-              <div>
-                <strong class="text-navy-900 block font-semibold">Predictive Environmental Analysis</strong>
-                Temporal tracking of NDVI and NDWI dynamics across multiple seasons to locate vulnerable biological corridors.
+        <!-- Feature Master Plan Image -->
+        <div class="mb-20">
+          <div class="text-center max-w-2xl mx-auto mb-8">
+            <span class="section-eyebrow">Comprehensive Master Plan</span>
+            <h3 class="font-display text-2xl font-bold text-navy-900">
+              Alam El Roum Sector Master Plan
+            </h3>
+            <p class="text-slate-500 text-xs mt-1">
+              Click on any image to open full-resolution high-definition view
+            </p>
+          </div>
+          <div
+            class="bg-navy-950 rounded-sm p-2 overflow-hidden shadow-2xl cursor-zoom-in group"
+          >
+            <img
+              src="../images/projects/alam-el-roum/masterplan-full.jpg"
+              alt="Comprehensive Master Plan"
+              class="w-full h-auto object-contain max-h-[80vh] mx-auto gallery-zoom-target transition-transform duration-300 group-hover:scale-[1.01]"
+              data-full-src="../images/projects/alam-el-roum/masterplan-full.jpg"
+            />
+          </div>
+          <p class="text-center text-xs text-slate-500 mt-3">
+            Final Master Plan: Land Use Allocation, Street Network Hierarchy &
+            Green Infrastructure
+          </p>
+        </div>
+
+        <!-- Presentation Boards Gallery (Shasieh) -->
+        <div class="mb-20">
+          <div class="mb-10">
+            <span class="section-eyebrow">Exhibition Boards</span>
+            <h3
+              class="font-display text-2xl sm:text-3xl font-bold text-navy-900"
+            >
+              Graduation Project Presentation Boards
+            </h3>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div
+              class="bg-slate-50 border border-slate-200/80 rounded-sm overflow-hidden flex flex-col group cursor-zoom-in"
+            >
+              <div class="aspect-[3/4] bg-slate-200 overflow-hidden">
+                <img
+                  src="../images/projects/alam-el-roum/board1.jpg"
+                  alt="Presentation Board 1"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 gallery-zoom-target"
+                  data-full-src="../images/projects/alam-el-roum/board1.jpg"
+                />
               </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-sm bg-navy-800 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold">2</span>
-              <div>
-                <strong class="text-navy-900 block font-semibold">K-Means Fragility Classification</strong>
-                Machine learning classification grouping coastal parcels into distinct vulnerability categories.
+              <div class="p-4 bg-white border-t border-slate-100 flex-1">
+                <h4 class="font-bold text-navy-900 text-sm mb-1">
+                  Board 1: Regional Context & Diagnostic Analysis
+                </h4>
+                <p class="text-xs text-slate-500">
+                  Demographic analysis, regional transport linkages,
+                  environmental sensitivity modeling.
+                </p>
               </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-sm bg-navy-800 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold">3</span>
-              <div>
-                <strong class="text-navy-900 block font-semibold">Adaptive Land Allocation</strong>
-                Multi-criteria zoning ensuring low-impact densities in fragile zones and transit-oriented development in stable corridors.
+            </div>
+
+            <div
+              class="bg-slate-50 border border-slate-200/80 rounded-sm overflow-hidden flex flex-col group cursor-zoom-in"
+            >
+              <div class="aspect-[3/4] bg-slate-200 overflow-hidden">
+                <img
+                  src="../images/projects/alam-el-roum/board2.jpg"
+                  alt="Presentation Board 2"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 gallery-zoom-target"
+                  data-full-src="../images/projects/alam-el-roum/board2.jpg"
+                />
               </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-sm bg-navy-800 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold">4</span>
-              <div>
-                <strong class="text-navy-900 block font-semibold">Circulation & Drainage Network</strong>
-                Hierarchy of roads, flood-safe evacuation routes, and dedicated surface storm runoff channels.
+              <div class="p-4 bg-white border-t border-slate-100 flex-1">
+                <h4 class="font-bold text-navy-900 text-sm mb-1">
+                  Board 2: Master Plan Formulation & Zoning
+                </h4>
+                <p class="text-xs text-slate-500">
+                  Land allocation matrix, density regulations, infrastructure
+                  and utilities routing.
+                </p>
               </div>
-            </li>
-          </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Maps & Technical Studies -->
+        <div class="mb-20">
+          <div class="mb-8">
+            <span class="section-eyebrow">Analytical Studies & Maps</span>
+            <h3 class="font-display text-2xl font-bold text-navy-900">
+              Spatial Framework & Modeling
+            </h3>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <div
+              class="border border-slate-200 rounded-sm p-4 bg-white shadow-sm group cursor-zoom-in"
+            >
+              <img
+                src="../images/projects/alam-el-roum/methodology.png"
+                alt="Analytical Methodology"
+                class="w-full h-64 object-contain bg-slate-50 rounded-sm gallery-zoom-target"
+                data-full-src="../images/projects/alam-el-roum/methodology.png"
+              />
+              <h4 class="font-bold text-navy-900 text-sm mt-3">
+                Methodology & Spatial Workflow
+              </h4>
+              <p class="text-xs text-slate-500 mt-1">
+                Multi-criteria analysis pipeline combining satellite data,
+                indices, and K-Means clustering.
+              </p>
+            </div>
+
+            <div
+              class="border border-slate-200 rounded-sm p-4 bg-white shadow-sm group cursor-zoom-in"
+            >
+              <img
+                src="../images/projects/alam-el-roum/sector.jpg"
+                alt="Regional Sector Analysis"
+                class="w-full h-64 object-cover rounded-sm gallery-zoom-target"
+                data-full-src="../images/projects/alam-el-roum/sector.jpg"
+              />
+              <h4 class="font-bold text-navy-900 text-sm mt-3">
+                Ras El Hekma / Alam El Roum Sector
+              </h4>
+              <p class="text-xs text-slate-500 mt-1">
+                Regional transect highlighting coastal marine reserve and
+                development boundary.
+              </p>
+            </div>
+
+            <div
+              class="border border-slate-200 rounded-sm p-4 bg-white shadow-sm group cursor-zoom-in"
+            >
+              <img
+                src="../images/projects/alam-el-roum/location.jpg"
+                alt="Site Location Analysis"
+                class="w-full h-64 object-cover rounded-sm gallery-zoom-target"
+                data-full-src="../images/projects/alam-el-roum/location.jpg"
+              />
+              <h4 class="font-bold text-navy-900 text-sm mt-3">
+                Geographic Location & Boundary
+              </h4>
+              <p class="text-xs text-slate-500 mt-1">
+                Relationship to Matrouh regional airport, coastal international
+                highway, and ports.
+              </p>
+            </div>
+
+            <div
+              class="border border-slate-200 rounded-sm p-4 bg-white shadow-sm group cursor-zoom-in"
+            >
+              <img
+                src="../images/projects/alam-el-roum/plan.jpg"
+                alt="Urban Layout"
+                class="w-full h-64 object-cover rounded-sm gallery-zoom-target"
+                data-full-src="../images/projects/alam-el-roum/plan.jpg"
+              />
+              <h4 class="font-bold text-navy-900 text-sm mt-3">
+                Urban Layout & Parcelization
+              </h4>
+              <p class="text-xs text-slate-500 mt-1">
+                Block geometry, internal road collector network, and green
+                pedestrian spines.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Between Projects -->
+        <div
+          class="pt-12 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4"
+        >
+          <a
+            href="../index.html#projects"
+            class="btn-secondary text-xs uppercase px-6 py-3"
+          >
+            ← Back to All Projects
+          </a>
+          <a
+            href="./sohag.html"
+            class="btn-primary text-xs uppercase px-6 py-3"
+          >
+            Next Project: Sohag Strategic Planning →
+          </a>
         </div>
       </div>
+    </main>
 
-      <!-- Feature Master Plan Image -->
-      <div class="mb-20">
-        <div class="text-center max-w-2xl mx-auto mb-8">
-          <span class="section-eyebrow">Comprehensive Master Plan</span>
-          <h3 class="font-display text-2xl font-bold text-navy-900">Alam El Roum Sector Master Plan</h3>
-          <p class="text-slate-500 text-xs mt-1">Click on any image to open full-resolution high-definition view</p>
-        </div>
-        <div class="bg-navy-950 rounded-sm p-2 overflow-hidden shadow-2xl cursor-zoom-in group">
-          <img 
-            src="../images/projects/alam-el-roum/masterplan-full.jpg" 
-            alt="Comprehensive Master Plan" 
-            class="w-full h-auto object-contain max-h-[80vh] mx-auto gallery-zoom-target transition-transform duration-300 group-hover:scale-[1.01]"
-            data-full-src="../images/projects/alam-el-roum/masterplan-full.jpg"
+    <!-- Footer -->
+    <footer
+      class="bg-navy-950 text-slate-400 py-8 border-t border-white/10 text-xs"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 lg:px-12 flex justify-between items-center"
+      >
+        <div>© 2026 Amr Saeed. Urban Planner & GIS Specialist.</div>
+        <a href="#top" class="text-gold-400 hover:underline">Back to Top ↑</a>
+      </div>
+    </footer>
+
+    <!-- Lightbox Component -->
+    <div
+      id="lightbox"
+      class="fixed inset-0 z-[200] hidden items-center justify-center bg-black/95 p-4"
+      role="dialog"
+      aria-modal="true"
+    >
+      <button
+        id="lightbox-close"
+        class="absolute top-4 right-4 w-11 h-11 rounded-sm bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-all z-20"
+        aria-label="Close lightbox"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-6 h-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
           />
-        </div>
-        <p class="text-center text-xs text-slate-500 mt-3">Final Master Plan: Land Use Allocation, Street Network Hierarchy & Green Infrastructure</p>
-      </div>
-
-      <!-- Presentation Boards Gallery (Shasieh) -->
-      <div class="mb-20">
-        <div class="mb-10">
-          <span class="section-eyebrow">Exhibition Boards</span>
-          <h3 class="font-display text-2xl sm:text-3xl font-bold text-navy-900">Graduation Project Presentation Boards</h3>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div class="bg-slate-50 border border-slate-200/80 rounded-sm overflow-hidden flex flex-col group cursor-zoom-in">
-            <div class="aspect-[3/4] bg-slate-200 overflow-hidden">
-              <img 
-                src="../images/projects/alam-el-roum/board1.jpg" 
-                alt="Presentation Board 1" 
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 gallery-zoom-target"
-                data-full-src="../images/projects/alam-el-roum/board1.jpg"
-              />
-            </div>
-            <div class="p-4 bg-white border-t border-slate-100 flex-1">
-              <h4 class="font-bold text-navy-900 text-sm mb-1">Board 1: Regional Context & Diagnostic Analysis</h4>
-              <p class="text-xs text-slate-500">Demographic analysis, regional transport linkages, environmental sensitivity modeling.</p>
-            </div>
-          </div>
-
-          <div class="bg-slate-50 border border-slate-200/80 rounded-sm overflow-hidden flex flex-col group cursor-zoom-in">
-            <div class="aspect-[3/4] bg-slate-200 overflow-hidden">
-              <img 
-                src="../images/projects/alam-el-roum/board2.jpg" 
-                alt="Presentation Board 2" 
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 gallery-zoom-target"
-                data-full-src="../images/projects/alam-el-roum/board2.jpg"
-              />
-            </div>
-            <div class="p-4 bg-white border-t border-slate-100 flex-1">
-              <h4 class="font-bold text-navy-900 text-sm mb-1">Board 2: Master Plan Formulation & Zoning</h4>
-              <p class="text-xs text-slate-500">Land allocation matrix, density regulations, infrastructure and utilities routing.</p>
-            </div>
-          </div>
-
-          <div class="bg-slate-50 border border-slate-200/80 rounded-sm overflow-hidden flex flex-col group cursor-zoom-in">
-            <div class="aspect-[3/4] bg-slate-200 overflow-hidden">
-              <img 
-                src="../images/projects/alam-el-roum/board3.jpg" 
-                alt="Presentation Board 3" 
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 gallery-zoom-target"
-                data-full-src="../images/projects/alam-el-roum/board3.jpg"
-              />
-            </div>
-            <div class="p-4 bg-white border-t border-slate-100 flex-1">
-              <h4 class="font-bold text-navy-900 text-sm mb-1">Board 3: Urban Design Typologies & 3D Visuals</h4>
-              <p class="text-xs text-slate-500">Architectural massing, pedestrian boulevards, coastal recreation clusters.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Additional Maps & Technical Studies -->
-      <div class="mb-20">
-        <div class="mb-8">
-          <span class="section-eyebrow">Analytical Studies & Maps</span>
-          <h3 class="font-display text-2xl font-bold text-navy-900">Spatial Framework & Modeling</h3>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-8">
-          <div class="border border-slate-200 rounded-sm p-4 bg-white shadow-sm group cursor-zoom-in">
-            <img 
-              src="../images/projects/alam-el-roum/methodology.png" 
-              alt="Analytical Methodology" 
-              class="w-full h-64 object-contain bg-slate-50 rounded-sm gallery-zoom-target"
-              data-full-src="../images/projects/alam-el-roum/methodology.png"
-            />
-            <h4 class="font-bold text-navy-900 text-sm mt-3">Methodology & Spatial Workflow</h4>
-            <p class="text-xs text-slate-500 mt-1">Multi-criteria analysis pipeline combining satellite data, indices, and K-Means clustering.</p>
-          </div>
-
-          <div class="border border-slate-200 rounded-sm p-4 bg-white shadow-sm group cursor-zoom-in">
-            <img 
-              src="../images/projects/alam-el-roum/sector.jpg" 
-              alt="Regional Sector Analysis" 
-              class="w-full h-64 object-cover rounded-sm gallery-zoom-target"
-              data-full-src="../images/projects/alam-el-roum/sector.jpg"
-            />
-            <h4 class="font-bold text-navy-900 text-sm mt-3">Ras El Hekma / Alam El Roum Sector</h4>
-            <p class="text-xs text-slate-500 mt-1">Regional transect highlighting coastal marine reserve and development boundary.</p>
-          </div>
-
-          <div class="border border-slate-200 rounded-sm p-4 bg-white shadow-sm group cursor-zoom-in">
-            <img 
-              src="../images/projects/alam-el-roum/location.jpg" 
-              alt="Site Location Analysis" 
-              class="w-full h-64 object-cover rounded-sm gallery-zoom-target"
-              data-full-src="../images/projects/alam-el-roum/location.jpg"
-            />
-            <h4 class="font-bold text-navy-900 text-sm mt-3">Geographic Location & Boundary</h4>
-            <p class="text-xs text-slate-500 mt-1">Relationship to Matrouh regional airport, coastal international highway, and ports.</p>
-          </div>
-
-          <div class="border border-slate-200 rounded-sm p-4 bg-white shadow-sm group cursor-zoom-in">
-            <img 
-              src="../images/projects/alam-el-roum/plan.jpg" 
-              alt="Urban Layout" 
-              class="w-full h-64 object-cover rounded-sm gallery-zoom-target"
-              data-full-src="../images/projects/alam-el-roum/plan.jpg"
-            />
-            <h4 class="font-bold text-navy-900 text-sm mt-3">Urban Layout & Parcelization</h4>
-            <p class="text-xs text-slate-500 mt-1">Block geometry, internal road collector network, and green pedestrian spines.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Navigation Between Projects -->
-      <div class="pt-12 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <a href="../index.html#projects" class="btn-secondary text-xs uppercase px-6 py-3">
-          ← Back to All Projects
-        </a>
-        <a href="./sohag.html" class="btn-primary text-xs uppercase px-6 py-3">
-          Next Project: Sohag Strategic Planning →
-        </a>
-      </div>
+        </svg>
+      </button>
+      <img
+        id="lightbox-img"
+        src=""
+        alt="Enlarged Board"
+        class="max-w-[92vw] max-h-[88vh] object-contain shadow-2xl transition-transform duration-300"
+      />
+      <button
+        id="lightbox-prev"
+        class="absolute left-4 top-1/2 -translate-y-1/2 gallery-nav-btn text-xl"
+        aria-label="Previous"
+      >
+        ‹
+      </button>
+      <button
+        id="lightbox-next"
+        class="absolute right-4 top-1/2 -translate-y-1/2 gallery-nav-btn text-xl"
+        aria-label="Next"
+      >
+        ›
+      </button>
     </div>
-  </main>
 
-  <!-- Footer -->
-  <footer class="bg-navy-950 text-slate-400 py-8 border-t border-white/10 text-xs">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12 flex justify-between items-center">
-      <div>© 2026 Amr Saeed. Urban Planner & GIS Specialist.</div>
-      <a href="#top" class="text-gold-400 hover:underline">Back to Top ↑</a>
-    </div>
-  </footer>
-
-  <!-- Lightbox Component -->
-  <div id="lightbox" class="fixed inset-0 z-[200] hidden items-center justify-center bg-black/95 p-4" role="dialog" aria-modal="true">
-    <button id="lightbox-close" class="absolute top-4 right-4 w-11 h-11 rounded-sm bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-all z-20" aria-label="Close lightbox">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-      </svg>
-    </button>
-    <img id="lightbox-img" src="" alt="Enlarged Board" class="max-w-[92vw] max-h-[88vh] object-contain shadow-2xl transition-transform duration-300" />
-    <button id="lightbox-prev" class="absolute left-4 top-1/2 -translate-y-1/2 gallery-nav-btn text-xl" aria-label="Previous">‹</button>
-    <button id="lightbox-next" class="absolute right-4 top-1/2 -translate-y-1/2 gallery-nav-btn text-xl" aria-label="Next">›</button>
-  </div>
-
-  <script type="module" src="../src/project-page.js"></script>
-</body>
+    <script type="module" src="../src/project-page.js"></script>
+  </body>
 </html>
